@@ -68,7 +68,7 @@
       }
       
       .intro{
-      height: 300vh;
+      height: 150vh;
       width:auto;
       }
       
@@ -153,6 +153,8 @@
         .align{
         display:flex;
         justify-content: center;
+        color: black;
+        font-weight:bold ;
         }
         .pastworks{
         background-color: aquamarine;
@@ -436,10 +438,10 @@ margin-right: 20px;
    }
   
    h2{
-   font-size: x-large;
+   font-size: xx-large;
    }
    p{
-   font-size:large ;
+   font-size:x-large ;
    }
 
    .end{
