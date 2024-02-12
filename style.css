@@ -25,10 +25,10 @@
   nav ul {
     display:flex;
     justify-content:flex-end;
-    padding:30px;
+    padding:50px;
     transition: ease 0.5s;
     border: 2px black solid;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5), -5px -5px 10px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5), -5px -5px 10px 0px rgba(218, 74, 74, 0.5);
     
     font-family:'fanlste',sans-serif;
     font-size: large;
@@ -71,9 +71,21 @@
       height: 150vh;
       width:auto;
       }
+      .introStyle2{
+        display: flex;
+      }
+
+      .picture{
+        flex: 1;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
       
       .pastworks{
-      height: 100vh;
+      height: 150vh;
       width:auto;
       }
       .contact{
@@ -82,11 +94,11 @@
         }
         
         a{
-        text-decoration: none;
+        text-decoration:underline;
         color: black;}
         
         a:hover{
-          color: gold;
+          color: black;
         }
 @media only screen and (max-width: 767px) {
   body{
@@ -114,7 +126,7 @@
 
         font-size: x-small;
         border: 2px white solid;
-        background-color:orangered;
+        background-color:rgb(238, 81, 24);
         overflow: hidden;
     }
     .navigation {
@@ -139,7 +151,7 @@
         margin-top:15px; /*reduce or increase with respect to what you need */
         height:auto; /*reduce or increase with respect to what you need */
         max-width:100%; /*reduce or increase with respect to what you need */
-        border: 2px orangered solid;
+        border: 2px rgb(237, 174, 151) solid;
         border-radius: 50%;
         }
         .intro h2{
@@ -150,6 +162,7 @@
         margin-top: 50px;
         line-height:30px;
         }
+        
         .align{
         display:flex;
         justify-content: center;
@@ -183,7 +196,7 @@
             align-items: center;
             height:50px;
             width:auto;
-            background-color: orangered;
+            background-color: rgb(214, 179, 166);
             color:white;
           
           }
@@ -274,7 +287,7 @@ cursor: pointer;
           margin-top:30px;
           height:auto;
           max-width:100%;
-          border: 2px orangered solid;
+          border: 2px rgb(236, 87, 33) solid;
           border-radius: 50%;
         }
         .intro h2{
@@ -379,7 +392,8 @@ background-color: azure;
                            
                             
  a:hover{
- color: rgb(194, 61, 13); 
+ color:black;
+ text-decoration: underline; 
  }
  nav ul{
  font-size: medium;
